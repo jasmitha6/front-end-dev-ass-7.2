@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+		<!-- Defines the character encoding -->
+		<meta charset="UTF-8">
+		
+	<title>Help Note</title>
+		<script>
+			// calling thge helper note
+			function anon(){
+			
+				if (typeof(Storage) !== "undefined") {
+				
+					alert("enter  your name here");
+				}
+				
+			};
+			function age(){
+			
+				if (typeof(Storage) !== "undefined") {
+				
+					alert("enter  your here ");
+				}
+				
+			};
+			
+			function city(){
+			
+				if (typeof(Storage) !== "undefined") {
+				
+					alert("enter your city here");
+				}
+				
+			};
+			
+			
+		
+	</script>
+		
+</head>
+
+    <body>
+	<form>
+		<!--details to be filled in the form-->
+	    <label>Name:</label>
+		<input id="name" type="text" name="name" size="20">
+        <button onclick="anon();">help</button>
+		<br>  
+		<label>Age:</label>
+		<input id="age" type="numeric" name="age" size="20">
+        <button onclick="age();">help</button>
+		<br>
+		<label>City:</label>
+		<input id="city" type="alphanumeric" name="city" size="20">
+		<button onclick="city();">help</button>
+     </form>
+
+</body>
+</html>
+	
